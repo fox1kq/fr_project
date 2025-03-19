@@ -7,13 +7,13 @@ class GeoGuessrGame {
         // Массив с вашими местами
         this.locations = [
             {
-                name: "Москва, Красная площадь",
+                name: "Москва, Красная площадь, Россия",
                 lat: 55.7535,
                 lng: 37.6212,
                 image: "images/moscow-red-square.jpg" // Путь к вашей картинке
             },
             {
-                name: "Санкт-Петербург, Дворцовая площадь",
+                name: "Санкт-Петербург, Дворцовая площадь, Россия",
                 lat: 59.9390,
                 lng: 30.3155,
                 image: "images/spb-palace-square.jpg"
@@ -24,6 +24,90 @@ class GeoGuessrGame {
                 lng: 12.4534,
                 image: "images/vatican-st-peters-square.jpg"
             },
+            {
+                name: "Париж, Эйфелева башня, Франция",
+                lat: 48.8584,
+                lng: 2.2945,
+                image: "images/paris-eiffel-tower.jpg"
+            },
+            {
+                name: "Лондон, Тауэрский мост, Великобритания",
+                lat: 51.5055,
+                lng: -0.0754,
+                image: "images/london-tower-bridge.jpg"
+            },
+            {
+                name: "Рим, Колизей, Италия",
+                lat: 41.8902,
+                lng: 12.4922,
+                image: "images/rome-colosseum.jpg"
+            },
+            {
+                name: "Нью-Йорк, Центральный парк, США",
+                lat: 40.7580,
+                lng: -73.9855,
+                image: "images/central-park.jpg"
+            },
+            {
+                name: "Рио-де-Жанейро, Статуя Христа-Искупителя, Бразилия",
+                lat: -22.9519,
+                lng: -43.2105,
+                image: "images/rio-christ-redeemer.jpg"
+            },
+            {
+                name: "Каир, Пирамиды Гизы, Египет",
+                lat: 29.9792,
+                lng: 31.1342,
+                image: "images/cairo-giza-pyramids.jpg"
+            },
+            {
+                name: "Сидней, Оперный театр, Австралия",
+                lat: -33.8568,
+                lng: 151.2153,
+                image: "images/sydney-opera-house.jpg"
+            },
+            {
+                name: "Пекин, Великая Китайская стена, Китай",
+                lat: 40.4319,
+                lng: 116.5704,
+                image: "images/beijing-great-wall.jpg"
+            },
+            {
+                name: "Токио, Синдзюку, Япония",
+                lat: 35.6895,
+                lng: 139.6917,
+                image: "images/tokyo-shinjuku.jpg"
+            },
+            {
+                name: "Барселона, Саграда Фамилия, Испания",
+                lat: 41.4036,
+                lng: 2.1744,
+                image: "images/barcelona-sagrada-familia.jpg"
+            },
+            {
+                name: "Дубай, Бурдж-Халифа, ОАЭ",
+                lat: 25.1972,
+                lng: 55.2744,
+                image: "images/dubai-burj-khalifa.jpg"
+            },
+            {
+                name: "Стамбул, Собор Святой Софии, Турция",
+                lat: 41.0086,
+                lng: 28.9802,
+                image: "images/istanbul-hagia-sophia.jpg"
+            },
+            {
+                name: "Мехико, Теотиуакан, Мексика",
+                lat: 19.6925,
+                lng: -98.8434,
+                image: "images/mexico-teotihuacan.jpg"
+            },
+            {
+                name: "Агра, Тадж-Махал, Индия",
+                lat: 27.1751,
+                lng: 78.0421,
+                image: "images/agra-taj-mahal.jpg"
+            }
         ];
         this.setupGame();
     }
@@ -35,7 +119,7 @@ class GeoGuessrGame {
         
         // Добавление слоя карты
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
+//            attribution: '© OpenStreetMap contributors'
         }).addTo(this.map);
         
         // Обработчики событий

@@ -112,6 +112,20 @@
             color: #2ecc71;
         }
 
+
+        .round-info {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .total-score {
+            font-size: 24px;
+            color: #2ecc71;
+            margin-top: 5px;
+        }
+
+
         .loading {
             position: fixed;
             top: 50%;
@@ -140,7 +154,7 @@
     <div class="map-container">
         <div id="map"></div>
     </div>
-    
+
     <div class="controls">
         <button class="standardButton" id="confirmButton">Проверить</button>
     </div>
@@ -150,8 +164,8 @@
         <p>Ваше предположение: <span id="guessLocation"></span></p>
         <p>Правильное местоположение: <span id="correctLocation"></span></p>
         <p>Расстояние: <span id="distance"></span></p>
-        <p class="score">Очки: <span id="points"></span></p>
-        <button class="standardButton" id="nextRound">Сыграть ещё раз</button>
+        <p class="score">Очки за раунд: <span id="points"></span></p>
+        <button class="standardButton" id="nextRound">Следующий раунд</button>
     </div>
 
     <div class="loading" id="loading">
@@ -160,6 +174,9 @@
 
     <!-- OpenStreetMap JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Локации -->
+    <script src="locations.js"></script>
     
     <!-- Основной скрипт -->
     <script src="script.js"></script>
