@@ -107,6 +107,120 @@ class GeoGuessrGame {
                 lat: 27.1751,
                 lng: 78.0421,
                 image: "images/agra-taj-mahal.jpg"
+            },
+            {
+                "name": "Афины, Парфенон, Греция",
+                "lat": 37.9715,
+                "lng": 23.7267,
+                "image": "images/athens-parthenon.jpg"
+            },
+            {
+                "name": "Вашингтон, Белый дом, США",
+                "lat": 38.8977,
+                "lng": -77.0365,
+                "image": "images/washington-white-house.jpg"
+            },
+            {
+                "name": "Берлин, Бранденбургские ворота, Германия",
+                "lat": 52.5163,
+                "lng": 13.3777,
+                "image": "images/berlin-brandenburg-gate.jpg"
+            },
+            {
+                "name": "Мадрид, Пласа-Майор, Испания",
+                "lat": 40.4155,
+                "lng": -3.7074,
+                "image": "images/madrid-plaza-mayor.jpg"
+            },
+            {
+                "name": "Лиссабон, Башня Белен, Португалия",
+                "lat": 38.6916,
+                "lng": -9.2159,
+                "image": "images/lisbon-belem-tower.jpg"
+            },
+            {
+                "name": "Стокгольм, Королевский дворец, Швеция",
+                "lat": 59.3262,
+                "lng": 18.0712,
+                "image": "images/stockholm-royal-palace.jpg"
+            },
+            {
+                "name": "Осло, Опера, Норвегия",
+                "lat": 59.9075,
+                "lng": 10.7522,
+                "image": "images/oslo-opera-house.jpg"
+            },
+            {
+                "name": "Прага, Карлов мост, Чехия",
+                "lat": 50.0865,
+                "lng": 14.4114,
+                "image": "images/prague-charles-bridge.jpg"
+            },
+            {
+                "name": "Вена, Шёнбрунн, Австрия",
+                "lat": 48.1842,
+                "lng": 16.3122
+                // "image": "images/vienna-schonbrunn.jpg"
+            },
+            {
+                "name": "Будапешт, Парламент, Венгрия",
+                "lat": 47.5067,
+                "lng": 19.0450
+                // "image": "images/budapest-parliament.jpg"
+            },
+            {
+                "name": "Брюссель, Гран-Плас, Бельгия",
+                "lat": 50.8467,
+                "lng": 4.3499
+                // "image": "images/brussels-grand-place.jpg"
+            },
+            {
+                "name": "Копенгаген, Русалочка, Дания",
+                "lat": 55.6929,
+                "lng": 12.5993
+                // "image": "images/copenhagen-little-mermaid.jpg"
+            },
+            {
+                "name": "Дублин, Тринити-колледж, Ирландия",
+                "lat": 53.3438,
+                "lng": -6.2546
+                // "image": "images/dublin-trinity-college.jpg"
+            },
+            {
+                "name": "Эдинбург, Замок, Шотландия",
+                "lat": 55.9486,
+                "lng": -3.2008
+                // "image": "images/edinburgh-castle.jpg"
+            },
+            {
+                "name": "Флоренция, Собор Санта-Мария-дель-Фьоре, Италия",
+                "lat": 43.7731,
+                "lng": 11.2559
+                // "image": "images/florence-duomo.jpg"
+            },
+            {
+                "name": "Милан, Собор Дуомо, Италия",
+                "lat": 45.4642,
+                "lng": 9.1900
+                // "image": "images/milan-duomo.jpg"
+            },
+            {
+                "name": "Неаполь, Везувий, Италия",
+                "lat": 40.8224,
+                "lng": 14.4289
+                // "image": "images/naples-vesuvius.jpg"
+            },
+            {
+                "name": "Варшава, Старый город, Польша",
+                "lat": 52.2500,
+                "lng": 21.0122
+                // "image": "images/warsaw-old-town.jpg"
+            },
+            {
+                "name": "Краков, Вавельский замок, Польша",
+                "lat": 50.0530,
+                "lng": 19.9354
+                // "image": "images/krakow-wawel-castle.jpg"
             }
         ];
         this.setupGame();
