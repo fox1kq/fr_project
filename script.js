@@ -159,68 +159,62 @@ class GeoGuessrGame {
             {
                 "name": "Вена, Шёнбрунн, Австрия",
                 "lat": 48.1842,
-                "lng": 16.3122
-                // "image": "images/vienna-schonbrunn.jpg"
+                "lng": 16.3122,
+                 "image": "images/vienna-schonbrunn.jpg"
             },
             {
                 "name": "Будапешт, Парламент, Венгрия",
                 "lat": 47.5067,
-                "lng": 19.0450
-                // "image": "images/budapest-parliament.jpg"
+                "lng": 19.0450,
+                 "image": "images/budapest-parliament.jpg"
             },
             {
                 "name": "Брюссель, Гран-Плас, Бельгия",
                 "lat": 50.8467,
-                "lng": 4.3499
-                // "image": "images/brussels-grand-place.jpg"
+                "lng": 4.3499,
+                 "image": "images/brussels-grand-place.jpg"
             },
             {
                 "name": "Копенгаген, Русалочка, Дания",
                 "lat": 55.6929,
-                "lng": 12.5993
-                // "image": "images/copenhagen-little-mermaid.jpg"
-            },
-            {
-                "name": "Дублин, Тринити-колледж, Ирландия",
-                "lat": 53.3438,
-                "lng": -6.2546
-                // "image": "images/dublin-trinity-college.jpg"
+                "lng": 12.5993,
+                 "image": "images/copenhagen-little-mermaid.jpg"
             },
             {
                 "name": "Эдинбург, Замок, Шотландия",
                 "lat": 55.9486,
-                "lng": -3.2008
-                // "image": "images/edinburgh-castle.jpg"
+                "lng": -3.2008,
+                 "image": "images/edinburgh-castle.jpg"
             },
             {
                 "name": "Флоренция, Собор Санта-Мария-дель-Фьоре, Италия",
                 "lat": 43.7731,
-                "lng": 11.2559
-                // "image": "images/florence-duomo.jpg"
+                "lng": 11.2559,
+                 "image": "images/florence-duomo.jpg"
             },
             {
-                "name": "Милан, Собор Дуомо, Италия",
+                "name": "Милан, Миланский собор, Италия",
                 "lat": 45.4642,
-                "lng": 9.1900
-                // "image": "images/milan-duomo.jpg"
+                "lng": 9.1900,
+                 "image": "images/milan-duomo.jpg"
             },
             {
                 "name": "Неаполь, Везувий, Италия",
                 "lat": 40.8224,
-                "lng": 14.4289
-                // "image": "images/naples-vesuvius.jpg"
+                "lng": 14.4289,
+                 "image": "images/naples-vesuvius.jpg"
             },
             {
                 "name": "Варшава, Старый город, Польша",
                 "lat": 52.2500,
-                "lng": 21.0122
-                // "image": "images/warsaw-old-town.jpg"
+                "lng": 21.0122,
+                 "image": "images/warsaw-old-town.jpg"
             },
             {
                 "name": "Краков, Вавельский замок, Польша",
                 "lat": 50.0530,
-                "lng": 19.9354
-                // "image": "images/krakow-wawel-castle.jpg"
+                "lng": 19.9354,
+                 "image": "images/krakow-wawel-castle.jpg"
             }
         ];
         this.setupGame();
@@ -232,7 +226,7 @@ class GeoGuessrGame {
         this.map = L.map('map').setView([0, 0], 2);
         
         // Добавление слоя карты
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 //            attribution: '© OpenStreetMap contributors'
         }).addTo(this.map);
         
