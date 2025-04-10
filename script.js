@@ -227,7 +227,8 @@ class GeoGuessrGame {
         
         // Добавление слоя карты
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-//            attribution: '© OpenStreetMap contributors'
+            locale: "ru"
+//            attribution: '&copy; <a href="https://carto.com/">CartoDB</a>',
         }).addTo(this.map);
         
         // Обработчики событий
